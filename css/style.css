@@ -1,0 +1,231 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #36454f;
+}
+
+/* edit the heading of the web pages */
+head, h3 {
+    font-size: 48px;
+    font-family: Helvetica;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* edit the main body  font and size center and color */
+body {
+    font-size: 18px;
+    font-family: Helvetica;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* This topbar section sets up all the colors and placement of the navigation bar. */
+.topbar {
+    background-color: #094754;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.topbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topbar a.active {
+    background-color: #278577;
+    color: white;
+}
+
+.weather {
+    display: inline-block;
+    background: #094754;
+}
+
+button {
+    background-color: #278577;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* make all images a specific size on the website by default */
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* prepare the about me picture to be on the left side of the text */
+img[alt="proPic"] {
+    float: left;
+    width: 300px; 
+    margin-right: 25px;
+}
+/* make the home page skyscraper picture keep its size */
+img[alt="skyscraper"] {
+    width: 400px;
+}
+
+/* center the entire gallery section */
+.mainGallery {
+    display: inline-block;
+}
+
+/* make the image gallery with description and boarder */
+.gallery {
+    margin: 5px;
+    float: left;
+    border: 2px solid whitesmoke;
+    width: 400px;    
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+/* This gets the text aligned for the about me page with the photo on the left text on the right */
+.split {
+    display: inline-block;
+    text-align: left;
+}
+
+/* These parts of the code is for customizing the social media buttons assistance from w3schools learning website */
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* These input sections and contactInfo are for formatting the contact me inpt boxes assistance form w3 schools learning website*/
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #278577;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactInfo {
+    border-radius: 4px;
+    background-color: #094754;
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    Color: whitesmoke;
+}
+
+/* Set up the image gallerys for locations, portraits, and  */
+.thegallery {
+    margin: 10px 40px;
+    display: inline-block;
+}
+
+.thegallery img {
+    transition: 1s;
+    padding: 10px;
+    width: 200px;
+}
+
+.thegallery img:hover {
+    filter:grayscale(80%);
+}
+
+/* Styling for tabs UI */
+.style-tabs {
+    background: #36454f;
+    width: 90%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    
+}
+
+#tabs-1 {
+    color: whitesmoke;
+}
+#tabs-2 {
+    color: whitesmoke;
+}
+#tabs-3 {
+    color: whitesmoke;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+li {
+    padding-bottom : .5em;
+}
+
+p {
+    padding-bottom: .5em;
+}
+
+/* This section is for the footer */
+footer {
+    position: relative;
+    color: lightgray;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Home Page of Matt Bavis Production Website">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="js/javascript.js"></script>
+    
+
+    <title>Photos</title>
+</head>
+
+<body>
+   <header>
+       <h3><br>Photos</h3>
+   </header>
+
+   <main>
+     <br>
+     <!--Set up some the nav bar-->
+       <div class="topbar">
+           <a href="index.html">Home</a>
+           <a href="aboutme.html">About Me</a>
+           <a class="active" href="#photos">Photos</a>
+           <a href="videos.html">Videos</a>
+           <a href="contactme.html">Contact Me</a>
+       </div>
+
+       <br><br><br>
+
+       <!--Give some quick text to give they user context of the page-->
+       <p>Photography is one of my biggest passions. I enjoy telling stories by capturing the perfect moment.</p>
+
+       <br><br>
+
+       <!--Adding in a tab menu from jquery UI-->
+       <div id ="tabs" class="style-tabs">
+          <ul>
+              <li><a href="#tabs-1">Lifestyle Photography</a></li>
+              <li><a href="#tabs-2">Location Photography</a></li>
+              <li><a href="#tabs-3">Portrait Photography</a></li>
+            </ul>         
+         <div id="tabs-1">
+           <p>I enjoy capturing peoples best moments and showing how people live and make the world awesome.</p>
+         </div>
+         <div id="tabs-2">
+           <p>Adventure is out there! Everyplace is so unique and location photography is great at showing what makes a place so unique.</p>
+         </div>
+         <div id ="tabs-3">
+           <p>Connection with others is something all humans love. portraits are great for showing how you connect to the world.</p>
+         </div>
+       </div>
+
+       <br><br>
+
+       <!--This sets up a div to hold all the gallery images inside of it with their descriptions-->
+       <div class="mainGallery">
+
+        <!--each gallery is a clickable image with a description attached-->
+       <div class="gallery">
+            <a href="lifestyle.html">
+              <img src="lifestylePic.jpg" alt="lifestylePic" >
+            </a>
+            <div class="desc">See my lifestyle pictures here</div>
+        </div>
+
+        <div class="gallery">
+                <a href="location.html">
+                  <img src="locationPic.jpg" alt="locationPic" >
+                </a>
+                <div class="desc">See my travel pictures here</div>
+        </div>
+
+        <div class="gallery">
+                <a href="portraits.html">
+                  <img src="portrait.jpg" alt="portrait" >
+                </a>
+                <div class="desc">See my portrait pictures here</div>
+        </div>
+
+        </div>
+
+
+   </main>
+
+<footer>
+    <!-- add validation links -->
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+</body>
+
+</html>
